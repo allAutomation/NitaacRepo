@@ -9,7 +9,7 @@ var email = new ReusableFun();
 describe('Story1', function() {
 
 	afterAll(function(){
-		email.sendEmail('./Reports/screenshots/report.html');		
+		email.sendEmail('./Data/KDT.xlsx');		
 	})
 
 	it('NITTAC USER Test1', function() {
@@ -47,7 +47,7 @@ describe('Story1', function() {
 describe('Story2', function() {
 
 	afterAll(function(){
-		email.sendEmail('./Reports/screenshots/report.html');		
+		email.sendEmail('./Data/KDT.xlsx');		
 	});
 
 	it('NITTAC USER Test1', function() {
@@ -83,7 +83,7 @@ describe('Story2', function() {
 describe('Story3', function() {
 
 	afterAll(function(){
-		email.sendEmail('./Reports/screenshots/report.html');		
+		email.sendEmail('./Data/KDT.xlsx');		
 	});
 
 	it('NITTAC USER Test1', function() {
@@ -122,7 +122,7 @@ describe('Story3', function() {
 describe('Story4', function() {
 
 	afterAll(function(){
-		email.sendEmail('./Reports/screenshots/report.html');		
+		email.sendEmail('./Data/KDT.xlsx');		
 	});
 
 	it('NITTAC USER Test1', function() {
