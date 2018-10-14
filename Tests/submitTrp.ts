@@ -23,7 +23,8 @@ describe('Story1', function() {
 	});
 
 	it('NITTAC USER Test3', function() {
-		console.log('test two');			
+		console.log('test two');	
+        console.log('test two');		
 	});
 
 	it('NITTAC USER Test4', function() {
