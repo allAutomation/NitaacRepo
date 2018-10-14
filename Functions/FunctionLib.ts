@@ -19,7 +19,7 @@ export class ReusableFun{
         });
         var mailOptions = {
             from: 'autotestprotractor@gmail.com', // sender address
-            to: 'scplc2007@gmail.com', // list of receivers
+            to: 'jordanhernandez532@gmail.com', // list of receivers
             subject: 'Test Run Result', // Subject line
             //text: info.body,
             text: 'Contains the test result for the smoke test in html file', // plaintext body
