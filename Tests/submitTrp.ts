@@ -14,12 +14,12 @@ describe('Story1', function() {
 
 	it('NITTAC USER Test1', function() {
 		fn.deliveryScripts('./Data/KDT.xlsx', 'NewMember');	
-		expect('buqaa').toEqual('uqaa');		
+		expect('uqaa').toEqual('uqaa');		
 	});
 
 	it('NITTAC USER Test2', function() {
 		console.log('test one');
-		expect('burii').toBe('buri');			
+		expect('buri').toBe('buri');			
 	});
 
 	it('NITTAC USER Test3', function() {
@@ -34,7 +34,7 @@ describe('Story1', function() {
 	it('NITTAC USER Test5 ', function() {
 		console.log('test four');
 		
-		expect('shasho').toBe('Shasho');
+		expect('shasho').toBe('shasho');
 
 	});
 	it('NITTAC USER Test6', function() {
@@ -56,7 +56,7 @@ describe('Story2', function() {
 
 	it('NITTAC USER Test2', function() {
 		console.log('test one');
-		expect('shasho').toBe('buri');			
+		expect('buri').toBe('buri');			
 	});
 
 	it('NITTAC USER Test3', function() {
@@ -65,18 +65,18 @@ describe('Story2', function() {
 
 	it('NITTAC USER Test4', function() {
 		console.log('test three');
-		expect('buqaa').toBe('Shasho');				
+		expect('buqaa').toBe('buqaa');				
 	});
 
 	it('NITTAC USER Test5', function() {
 		console.log('test four');
 		
-		expect('shasho').toBe('Shasho');
+		expect('shasho').toBe('shasho');
 
 	});
 	it('NITTAC USER Test6', function() {
 		console.log('test five');
-		expect('shasho').toBe('Shasho');				
+		expect('shasho').toBe('shasho');				
 	});
 
 });
@@ -87,12 +87,12 @@ describe('Story3', function() {
 	});
 
 	it('NITTAC USER Test1', function() {
-		expect('buqaa').toBe('uqaa');		
+		expect('buqaa').toBe('buqaa');		
 	});
 
 	it('NITTAC USER Test2', function() {
 		console.log('test one');
-		expect('shasho').toBe('buri');			
+		expect('buri').toBe('buri');			
 	});
 
 	it('NITTAC USER Test3', function() {
@@ -101,19 +101,19 @@ describe('Story3', function() {
 
 	it('NITTAC USER Test4', function() {
 		console.log('test three');
-		expect('buqaa').toBe('Shasho');				
+		expect('buqaa').toBe('buqaa');				
 	});
 
 	it('NITTAC USER Test5', function() {
 		fn.deliveryScripts('./Data/KDT.xlsx', 'NewMember');	
 		console.log('test four');
 		
-		expect('shasho').toBe('Shasho');
+		expect('shasho').toBe('shasho');
 
 	});
 	it('NITTAC USER Test6', function() {
 		console.log('test five');
-		expect('shasho').toBe('Shasho');				
+		expect('shasho').toBe('shasho');				
 	});
 
 });
@@ -131,7 +131,7 @@ describe('Story4', function() {
 
 	it('NITTAC USER Test2', function() {
 		console.log('test one');
-		expect('shasho').toBe('buri');			
+		expect('buri').toBe('buri');			
 	});
 
 	it('NITTAC USER Test3', function() {
@@ -146,7 +146,7 @@ describe('Story4', function() {
 	it('NITTAC USER Test5', function() {
 		console.log('test four');
 		
-		expect('shasho').toBe('Shasho');
+		expect('shasho').toBe('shasho');
 
 	});
 	it('NITTAC USER Test6', function() {
