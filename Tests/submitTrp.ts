@@ -18,7 +18,7 @@ describe('Story1', function() {
 	});
 
 	it('NITTAC USER Test2', function() {
-		console.log('test one');
+		console.log('test onectwo three four');
 		expect('buri').toBe('buri');			
 	});
 
