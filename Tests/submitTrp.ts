@@ -150,11 +150,6 @@ describe('Story4', function() {
 		expect('shasho').toBe('shasho');
 
 	});
-	it('NITTAC USER Test6', function() {
-		console.log('test five');
-		expect('shasho').toBe('shasho');				
-	});
-
 });
 
 
